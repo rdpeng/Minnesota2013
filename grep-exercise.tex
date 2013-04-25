@@ -45,5 +45,20 @@ like the following:
 \includegraphics{homicide-ages}
 \end{figure}
 
+\section*{Spatial distribution of homicides}
+
+Each homicide in the dataset contains a latitude/longitude pair identifying the location (the block) where the victim was found. Make a map of the locations of the homicides to examine the spatial distribution of where homicide victims are found. You can use the \textbf{maps} package to draw a map of Baltimore.
+
+\begin{verbatim}
+library(maps)
+map("county", "maryland,baltimore city")
+\end{verbatim}
+
+The resulting map should look something like the following.
+
+\begin{figure}[h]
+\includegraphics{homicide-map}
+\end{figure}
+
 
 \end{document}

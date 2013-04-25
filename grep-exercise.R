@@ -25,3 +25,15 @@ mat <- regmatches(homicides, reg)
 age <- sapply(mat, function(x) ifelse(length(x) > 0, x[2], NA))
 age <- as.numeric(age)
 hist(age)
+
+
+## Map
+reg <- regexec("^([0-9]+\\.[0-9]+), (-[0-9]+\\.[0-9]+),", homicides)
+mat <- regmatches(homicides, reg)
+lat <- as.numeric(sapply(mat, function(x) x[2]))
+long <- as.numeric(sapply(mat, function(x) x[3]))
+library(maps)
+par(mar = rep(0.2, 4))
+map("county", "maryland,baltimore city", asp = 1)
+points(long, lat, pch = 20, col = rgb(0, 0, 0, 0.3))
+
