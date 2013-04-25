@@ -1,0 +1,16 @@
+The validity of conclusions from scientific investigations is
+typically strengthened by the replication of results by independent
+researchers. Full replication of a study's results using independent
+methods, data, equipment, and protocols, has long been, and will
+continue to be, the standard by which scientific claims are evaluated.
+However, in many fields of study, there are examples of scientific
+investigations which cannot be fully replicated, often because of a
+lack of time or resources. In such situations, there is a need for a
+minimum standard which can serve as an intermediate step between full
+replication and nothing. This minimum standard is reproducible
+research, which requires that datasets and computer code be made
+available to others for verifying published results and conducting
+alternate analyses. The tutorial will provide an introduction to tools
+for conducting reproducible research. We will focus on the R
+statistical computing language and will discuss other tools that can
+be used for producing reproducible documents.
