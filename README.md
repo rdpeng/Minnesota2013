@@ -4,11 +4,11 @@ Here you'll find the lecture materials, exercise, and associated R code for the 
 
 ## Resources
 
-* regex.tex, regex.pdf: Lecture slides for regular expressions
+* regex.tex, pdf/regex.pdf: Lecture slides for regular expressions
 
-* grep.tex, grep.pdf: Lecture slides for using regular expressions in R
+* grep.tex, pdf/grep.pdf: Lecture slides for using regular expressions in R
 
-* RR_knitr.pptx: Lecture slides for literate statistical programming with knitr
+* RR_knitr.pptx, pdf/RR_knitr.pdf: Lecture slides for literate statistical programming with knitr
 
 * grep-exercise.pdf: Exercise for regular expressions
 
